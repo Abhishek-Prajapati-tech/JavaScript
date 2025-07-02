@@ -10,8 +10,17 @@ console.table([name , age, isLoggedIn , i]);
 
  // number => 2 to ki power 53
  // bigint
- // string => true/false
- // null
+ // string => single code (''), and double code("") is allow
+ // boolean => true/false
+ // null => standalone value
+ // undefine=>
+// symbole => unique
+ // object 
+ console.log(typeof age);// number
+  console.log(typeof null);// object
+   console.log(typeof undefined);// undefined
+    console.log(typeof true);// boolean
+     console.log(typeof "abhi");// string
 
  // Numbers:
 let length = 16;
