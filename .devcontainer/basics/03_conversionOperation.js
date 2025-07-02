@@ -16,7 +16,7 @@ console.log(typeof(scor));
 
 let valueNumber2 = Number(scor)
 console.log(typeof valueNumber2);
-console.log(valueNumber2);NaN
+console.log(valueNumber2);//NaN
 
 //case 3
 
