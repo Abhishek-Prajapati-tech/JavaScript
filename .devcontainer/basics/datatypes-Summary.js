@@ -13,6 +13,26 @@ const temp = null//null
 let undefined;//undefined
 
 const id = Symbol('123')//Symbole
+const anotherId= Symbol('123')
+
+console.log(id == anotherId);//false
+const BigNUmber = 34634463464463443434n
+console.log(BigNUmber);
 
 //2 => referance{Non primitive}
 // Array. object, Functions
+
+const heros = ["shaktiman" , "naagraj" , "abhishek"]
+let myobj = {
+    name: "abhishek",
+    age : 20,
+}
+
+const myfunction = function(){
+    console.log("Hello world");
+}
+
+console.log(typeof BigNUmber)
+console.log(typeof myfunction);
+console.log(heros);
+
