@@ -36,3 +36,26 @@ console.log(typeof BigNUmber)
 console.log(typeof myfunction);
 console.log(heros);
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// memory working two type
+// Stack(primitive), Heap (non-primitive)
+
+let myYoutubename = "Abhishekprajapati"
+anothername = "narendraprajapati"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "Abhishekprajapati7470@gmail.com",
+    upi: "7470320905@ybl"
+}
+let usertwo = userOne
+usertwo.email = "Abhipraja7470@gmail.com"
+
+console.log(userOne.email);
+console.log(usertwo.email);
+
+
+
+
