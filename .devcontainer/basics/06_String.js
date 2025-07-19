@@ -31,4 +31,29 @@ const myArray = text.split(" ");
 let word = myArray[1];
 console.log(word);
 console.log(myArray[0]);
+let text1 = `He's often called "Johnny"`;
+console.log(text1);
 
+let t = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+let length = text.length;
+console.log(length);
+// let t1 = "We are the so-called , "Vikings"  , from the north.";
+
+// Code 	Result	 Description
+// \'    	 '	       Single quote
+// \"   	"	       Double quote
+// \\    	\        	Backslash
+
+//  \" inserts a double quote in a string:
+let text3 = "We are the so-called \"Vikings\" from the north.";
+console.log(text3);
+
+
+//  \' inserts a single quote in a string:
+
+let text4 = 'It\'s alright.';
+
+//   \\, \ inserts a backslash in a string:
+
+let text5 = "The character \ is called backslash.";
+console.log(text5);
