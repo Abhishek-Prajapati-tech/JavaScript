@@ -56,8 +56,33 @@ console.log(Object.entries(tinderuser));
 
 console.log(tinderuser.hasOwnProperty('islogged'));
 
+const course = {
+    coursename: "hindi",
+    price: "10000",
+    courseInstructor: "Abhishek"
+}
+
+// course.courseInstructor
+const{courseInstructor} = course
+console.log(courseInstructor);
+const{price} = course
+console.log(price);
+
+console.log(course.coursename);
+// destructuring on objects
+// const navbar = () => {
+
+// }
+
+// consept of API apnakam kisi or ke sir pe dak dena hi api he
+// resrorent ka menue = ap sirf order karenge banki uski problem knha se 
+// kya karega 
 
 
-
+//  {
+//     "name": "hindi",
+//     "price": "10000",
+//     "course": "Abhishek"
+// };
 
 
