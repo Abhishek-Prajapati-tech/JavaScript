@@ -17,3 +17,7 @@ console.log(real_heros);
 console.log(Array.isArray("hitesh"));
 console.log(Array.from("hitesh"));
 console.log(Array.from({name: "hitesh"}));
+let score = 100
+let score1 = 200
+let score2 = 300
+console.log(Array.of(score,score1,score2));
