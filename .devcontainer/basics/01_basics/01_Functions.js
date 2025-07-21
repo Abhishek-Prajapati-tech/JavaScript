@@ -40,3 +40,35 @@ function loginusermassage(username){
 }
 
 console.log(loginusermassage("Abhishek"));
+
+function calculatecarprice(val1,val2, ...number1){// three doste ka mtlb ak bundal me sab pack karo or mujhe dedo
+// val1 = 200 ,  val2 = 300, ...number1 = [400,500]
+    return number1
+} 
+
+console.log(calculatecarprice(200, 300, 400, 500));
+
+const user = {
+    username: "ABhishek",
+    price: 199
+}
+
+function handleobject(anyobject){
+    console.log(`username is ${anyobject.username} add price is ${anyobject.price}`);
+    
+}
+handleobject(user)
+handleobject(
+    {
+        username: "Abhi",
+        price: 399
+    }
+)
+
+const mynewArray = [200,100,300,400,600]
+
+function retrunsecondValue(getArray){
+    return getArray[2]
+}
+console.log(retrunsecondValue(mynewArray));
+console.log(retrunsecondValue([200,100,300,400,600]));
