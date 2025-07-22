@@ -13,4 +13,4 @@ AcccountEmail = "Abhi8085@gmail.com"
 Accountpossword = "789456"
 accountCity = "indore"
 
-console.log([AcccountEmail, Accountpossword, AccuntId, accountCity]);
+console.table([AcccountEmail, Accountpossword, AccuntId, accountCity]);

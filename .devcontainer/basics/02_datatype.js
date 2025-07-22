@@ -42,6 +42,9 @@ const cars = ["Saab", "Volvo", "BMW"];
 
 // Date object:
 const date = new Date("2022-03-25");
+//symbol
+let symbol = "Abhishk"
+console.log(symbol);
 
 let a = "16" + "Volvo";
 let b = 16 + "Volvo";

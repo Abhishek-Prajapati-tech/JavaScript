@@ -20,7 +20,7 @@ console.log(Math.abs(-45));
 console.log(Math.round(4.3));
 console.log(Math.ceil(65.164));//66
 console.log(Math.floor(65.164));//65
-console.log(Math.sqrt(81));
+console.log(Math.sqrt(81));//9
 console.log(Math.max(65, 549, 65465,45));
 console.log(Math.min(65, 549, 65465,45));
 console.log(Math.random());// only 0 and 1 k bich me value dti h

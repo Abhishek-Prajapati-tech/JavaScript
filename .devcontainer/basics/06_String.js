@@ -52,8 +52,9 @@ console.log(text3);
 //  \' inserts a single quote in a string:
 
 let text4 = 'It\'s alright.';
+console.log(text4);
 
 //   \\, \ inserts a backslash in a string:
 
-let text5 = "The character \ is called backslash.";
+let text5 = "The character \\is called backslash.";
 console.log(text5);
