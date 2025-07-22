@@ -8,6 +8,7 @@
 //Invoked function Expressions bolte he or(jo function immediatly execute hota he use 
 // bhi IIFe bolte he)
 ( function abhi() {
+     //name IIFE
      console.log(`DB CONNECTED TWO`);
 })();
 
@@ -16,5 +17,6 @@
 })();
 
 ( (name) => {
+     //unName
      console.log(`DB CONNECTED FOUR ${name}`);
 })('Abhishek')
