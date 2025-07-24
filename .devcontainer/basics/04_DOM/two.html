@@ -5,15 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <div class="parant">
-       <div class="class">monday</div>
-       <div class="class">tusday</div>
-       <div class="class">wed <div>
-       <div class="class">thurs</div>
-       <div class="class">friday</div>
-       <div class="class">str</div>
-       <div class="class">sunday</div>
+<body style="background-color: #212121; color: #fff;">
+    <div class="parent">
+       <div class="day">monday</div>
+       <div class="day">tusday</div>
+       <div class="day">wed </div>
+       <div class="day">thurs</div>
+       <div class="day">friday</div>
+       <div class="day">str</div>
+       <div class="day">sunday</div>
     </div>
 </body>
+<script>
+    let par = document.querySelector('.parent')
+    console.log(par);
+    console.log(par.children);
+    console.log(par.children[6]);
+    console.log(par.children[2].innerHTML)
+    for (let i = 0; i < par.children.length; i++) {
+        console.log(par.children[i].innerHTML);
+    }
+    
+    par.children[2].style.color = 'red'
+    console.log(par.firstElementChild.innerHTML);
+    console.log(par.lastElementChild.innerHTML);
+    
+    let dayon = document.querySelector('.day')
+    console.log(dayon);
+    const p = dayon.par
+     console.log(par.parentElement);
+         console.log(dayon.parentElement);
+         console.log(dayon.nextElementSibling);
+         console.log("NOD: ", par.childNodes);
+         
+    
+</script>
 </html>
