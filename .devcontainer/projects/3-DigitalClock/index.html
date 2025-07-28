@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="../styles.css" />
+    <title>Your Local Time</title>
+    <style>
+      body {
+        background-color: #212121;
+        color: #fff;
+      }
+      .center {
+        display: flex;
+        height: 100vh;
+        color: rgb(224, 64, 211);
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      #clock {
+       width: 200px;
+      height: 200px;
+      background-color: #0ab4df;
+      border: 5px solid black;
+      border-radius: 50%; /* Circle shape */
+      display: flex;
+      align-items: center;  /* Vertical center */
+      justify-content: center; /* Horizontal center */
+      font-size: 24px;
+      font-family: Arial, sans-serif;
+      position: relative;
+      }
+    </style>
+  </head>
+  <body>
+   
+    <div class="center">
+      <div id="banner"><span>Your local time</span></div>
+      <div id="clock"></div>
+    </div>
+    <script src="abhi.js"></script>
+  </body>
+</html>
