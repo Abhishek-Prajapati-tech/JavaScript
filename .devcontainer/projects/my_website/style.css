@@ -1,0 +1,123 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+* {
+  transition: all 0.3s ease-in-out;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #e0f7fa, #ffffff);
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background: linear-gradient(to right, #00796b, #004d40);
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 14px;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+nav a:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+section {
+  background-color: white;
+  margin: 40px auto;
+  padding: 30px;
+  max-width: 900px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+section:hover {
+  transform: scale(1.01);
+}
+
+
+h2 {
+  font-size: 28px;
+  color: #00796b;
+  border-left: 5px solid #00796b;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+#projects div {
+  border: none;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  background: #f1f8f9;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+#projects div:hover {
+  transform: translateY(-5px);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #004d40;
+  color: white;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+.dark {
+  background-color: #121212;
+  color: #fff;
+}
+
+.dark section {
+  background-color: #1e1e1e;
+}
+button{
+    background-color: #00bfa5;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+}
+#progressBar {
+  height: 4px;
+  background: #00bfa5;
+  width: 0%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
